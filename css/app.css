@@ -10,6 +10,7 @@ header {
 
 .container {
   margin: 0 auto;
+  position: relative;
 }
 
 .flip {
@@ -104,4 +105,22 @@ header {
 .button p {
 padding-bottom: 10px;
 margin: 0;
+}
+
+.finish {
+  width:450px;
+  height: 300px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  position: absolute;
+  top: 200px;
+  left: 34%;
+  display: none;
+}
+
+.fincomment {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  padding-top: 50px;
 }
