@@ -1,0 +1,6 @@
+function getFlashwords(){
+  
+  ]
+  return flashwords;
+
+}
